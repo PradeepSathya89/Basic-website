@@ -5,17 +5,27 @@ const items = [
   'Same-Day Dispatch', 'Premium Packaging', 'Loyalty Rewards', 'Eco-Friendly',
 ]
 
+function TrackGroup() {
+  return (
+    <div className={s.group} aria-hidden="true">
+      {items.map((item, i) => (
+        <span key={i} className={s.item}>
+          <span className={s.dot} />
+          {item}
+        </span>
+      ))}
+    </div>
+  )
+}
+
 export default function Marquee() {
-  const doubled = [...items, ...items]
   return (
     <div className={s.wrap}>
       <div className={s.track}>
-        {doubled.map((item, i) => (
-          <span key={i} className={s.item}>
-            <span className={s.dot} />
-            {item}
-          </span>
-        ))}
+        <TrackGroup />
+        <TrackGroup />
+        <TrackGroup />
+        <TrackGroup />
       </div>
     </div>
   )
