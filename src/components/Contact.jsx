@@ -20,9 +20,9 @@ export default function Contact() {
         <div className={s.list}>
           {[
             { icon: '📍', label: 'Address', val: '42 Banjara Hills, Hyderabad, TS 500034' },
-            { icon: '📞', label: 'Phone',   val: '+91 98765 43210' },
-            { icon: '✉️', label: 'Email',   val: 'hello@luxora.in' },
-            { icon: '🕐', label: 'Hours',   val: 'Mon – Sat: 9 AM – 7 PM IST' },
+            { icon: '📞', label: 'Phone',   val: '+91 88975 41279' },
+            { icon: '✉️', label: 'Email',   val: 'hello@luxora.com' },
+            { icon: '🕐', label: 'Hours',   val: 'Mon – Sat: 10 AM – 9 PM IST' },
           ].map(item => (
             <div key={item.label} className={s.item}>
               <div className={s.itemIcon}>{item.icon}</div>
