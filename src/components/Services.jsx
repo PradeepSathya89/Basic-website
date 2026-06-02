@@ -6,7 +6,7 @@ const services = [
   { icon: '🚚', title: 'Express Delivery', desc: 'Same-day dispatch on orders placed before 2 PM. Track your parcel in real time through our app.' },
   { icon: '🔄', title: 'Easy Returns', desc: 'Not happy? Return within 30 days, no questions asked. We\'ll pick it up from your door at no extra cost.' },
   { icon: '🎁', title: 'Gift Services', desc: 'Premium gift wrapping, personalised notes, and direct delivery to loved ones — all handled beautifully.' },
-  { icon: '💎', title: 'Loyalty Programme', desc: 'Earn Luxora Points on every purchase. Redeem for discounts, early access, and exclusive member perks.' },
+  { icon: '💎', title: 'Loyalty Programme', desc: 'Earn Peoples Mart Points on every purchase. Redeem for discounts, early access, and exclusive member perks.' },
   { icon: '🤝', title: 'Personal Stylist', desc: 'Get matched with a personal shopping advisor who understands your taste and budget.' },
 ]
 

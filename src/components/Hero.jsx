@@ -9,7 +9,7 @@ export default function Hero() {
           Curated for<br />the <em>discerning</em><br />lifestyle
         </h1>
         <p className={s.p}>
-          Luxora brings you handpicked premium goods — from home essentials to personal luxuries — crafted with intention and delivered with care.
+          Peoples Mart brings you handpicked premium goods — from home essentials to personal luxuries — crafted with intention and delivered with care.
         </p>
         <div className={s.actions}>
           <a href="#services" className={s.btnPrimary}>Explore Collection</a>

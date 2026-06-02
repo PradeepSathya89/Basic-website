@@ -22,7 +22,7 @@ export default function About() {
         <span className={s.eyebrow}>Our Story</span>
         <h2 className={s.h2}>Built on craft,<br />driven by care</h2>
         <p className={s.sub}>
-          Luxora started in 2019 with a simple belief: shopping should feel good from the first click to the last unboxing.
+          Peoples Mart started in 2019 with a simple belief: shopping should feel good from the first click to the last unboxing.
           We partner only with brands that share our commitment to quality and sustainability.
         </p>
         <div className={s.values}>

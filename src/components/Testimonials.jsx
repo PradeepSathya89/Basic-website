@@ -2,12 +2,12 @@ import { useReveal } from '../hooks/useReveal'
 import s from './Testimonials.module.css'
 
 const reviews = [
-  { name: 'Priya Sharma',   role: 'Loyal customer since 2021', quote: 'The packaging alone made me feel special. Every order from Luxora feels like a gift — even when I\'m buying for myself.' },
+  { name: 'Priya Sharma',   role: 'Loyal customer since 2021', quote: 'The packaging alone made me feel special. Every order from Peoples Mart feels like a gift — even when I\'m buying for myself.' },
   { name: 'Rohan Mehta',    role: 'Verified buyer',            quote: 'Ordered a gift set for my wife\'s birthday at 11 AM and it arrived by 6 PM beautifully wrapped. Genuinely impressive.' },
   { name: 'Ananya Krishnan',role: 'Interior enthusiast',       quote: 'Their personal stylist helped me pick a complete home refresh within my budget. I would never have found these pieces on my own.' },
   { name: 'Vikram Nair',    role: 'Hyderabad',                 quote: 'The return process was shockingly easy. I pressed one button and they collected the parcel the next morning. No hassle.' },
   { name: 'Sneha Iyer',     role: 'Premium member',            quote: 'I\'ve ordered over 40 times. The quality is consistent, the curation improves each season, and customer care is always there.' },
-  { name: 'Karthik Reddy',  role: 'Business owner',            quote: 'I gifted a Luxora hamper to my team and every single person asked me where it was from. Premium feel, fair price.' },
+  { name: 'Karthik Reddy',  role: 'Business owner',            quote: 'I gifted a Peoples Mart hamper to my team and every single person asked me where it was from. Premium feel, fair price.' },
 ]
 
 function Card({ name, role, quote, delay }) {

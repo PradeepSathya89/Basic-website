@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className={s.footer}>
       <div className={s.top}>
         <div className={s.brand}>
-          <span className={s.logo}>Luxora</span>
+          <span className={s.logo}>Peoples Mart</span>
           <p className={s.tagline}>Curated lifestyle products delivered with care. Premium quality, every time.</p>
         </div>
         {[
@@ -22,7 +22,7 @@ export default function Footer() {
         ))}
       </div>
       <div className={s.bottom}>
-        <span>© {new Date().getFullYear()} Luxora Retail Pvt. Ltd. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Peoples Mart Pvt. Ltd. All rights reserved.</span>
         <span>Privacy Policy · Terms of Service · Cookie Settings</span>
       </div>
     </footer>
