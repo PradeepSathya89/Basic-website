@@ -29,12 +29,7 @@ export default function About() {
         ref={rLeft}
         className={`${s.visual} ${vLeft ? s.visible : ""}`}
       >
-        <div className={s.imgMain}>
-          <img
-            src="/images/laundry-team.jpg"
-            alt="Laundry Team"
-          />
-        </div>
+        
 
         <div className={s.imgInset}>
           <img
@@ -49,6 +44,7 @@ export default function About() {
 <div className={s.imgInset}>
   <img src="/images/staff-working.jpg" alt="Laundry Staff" />
 </div>
+
       </div>
 
       <div

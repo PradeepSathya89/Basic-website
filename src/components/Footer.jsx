@@ -1,30 +1,62 @@
-import s from './Footer.module.css'
+import s from "./Footer.module.css";
 
 export default function Footer() {
   return (
     <footer className={s.footer}>
       <div className={s.top}>
         <div className={s.brand}>
-          <span className={s.logo}>Peoples Mart</span>
-          <p className={s.tagline}>Curated lifestyle products delivered with care. Premium quality, every time.</p>
+          <span className={s.logo}>Laundry Services</span>
+
+          <p className={s.tagline}>
+            Professional laundry, dry cleaning, ironing, and pickup &
+            delivery services. Fresh clothes, exceptional care, every time.
+          </p>
         </div>
-        {[
-          { title: 'Shop', links: ['New Arrivals','Bestsellers','Gift Sets','Sale'] },
-          { title: 'Company', links: ['About Us','Careers','Press','Sustainability'] },
-          { title: 'Support', links: ['Contact','Track Order','Returns','FAQ'] },
-        ].map(col => (
-          <div key={col.title} className={s.col}>
-            <h4>{col.title}</h4>
-            <ul>
-              {col.links.map(l => <li key={l}><a href="#">{l}</a></li>)}
-            </ul>
-          </div>
-        ))}
+
+        {/* Services */}
+        <div className={s.col}>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Wash & Fold</a></li>
+            <li><a href="#services">Dry Cleaning</a></li>
+            <li><a href="#services">Ironing & Pressing</a></li>
+            <li><a href="#services">Pickup & Delivery</a></li>
+          </ul>
+        </div>
+
+        {/* Company */}
+        <div className={s.col}>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        {/* Support */}
+        <div className={s.col}>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#contact">Book Service</a></li>
+            <li><a href="#contact">Pickup Request</a></li>
+            <li><a href="#contact">FAQ</a></li>
+            <li><a href="#contact">Customer Support</a></li>
+          </ul>
+        </div>
       </div>
+
       <div className={s.bottom}>
-        <span>© {new Date().getFullYear()} Peoples Mart Pvt. Ltd. All rights reserved.</span>
-        <span>Privacy Policy · Terms of Service · Cookie Settings</span>
+        <span>
+          © {new Date().getFullYear()} Pradeep Laundry Services.
+          All Rights Reserved.
+        </span>
+
+        <span>
+          Privacy Policy · Terms & Conditions · Service Policy
+        </span>
       </div>
     </footer>
-  )
+  );
 }
