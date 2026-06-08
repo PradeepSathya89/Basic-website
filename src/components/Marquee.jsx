@@ -1,9 +1,17 @@
-import s from './Marquee.module.css'
+import s from "./Marquee.module.css";
 
 const items = [
-  'Free Returns', 'Handpicked Quality', 'Secure Payments',
-  'Same-Day Dispatch', 'Premium Packaging', 'Loyalty Rewards', 'Eco-Friendly',
-]
+  "Free Pickup & Delivery",
+  "Same-Day Service",
+  "Professional Dry Cleaning",
+  "Expert Stain Removal",
+  "Wash & Fold Service",
+  "Premium Ironing & Pressing",
+  "Eco-Friendly Cleaning",
+  "Commercial Laundry Solutions",
+  "Affordable Pricing",
+  "100% Customer Satisfaction",
+];
 
 function TrackGroup() {
   return (
@@ -15,7 +23,7 @@ function TrackGroup() {
         </span>
       ))}
     </div>
-  )
+  );
 }
 
 export default function Marquee() {
@@ -28,5 +36,5 @@ export default function Marquee() {
         <TrackGroup />
       </div>
     </div>
-  )
+  );
 }

@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <nav className={`${s.nav} ${scrolled ? s.scrolled : ''}`}>
-      <a href="#home" className={s.logo}>Peoples Mart</a>
+      <a href="#home" className={s.logo}>FreshWash Laundry Services</a>
 
       <ul className={`${s.links} ${open ? s.open : ''}`}>
         {links.map(l => (
